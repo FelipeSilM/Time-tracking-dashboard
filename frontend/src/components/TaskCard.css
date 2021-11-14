@@ -1,0 +1,121 @@
+div.container-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+div.container-card.Work{
+    background-color: hsl(15, 100%, 70%);
+}
+div.container-card.Play{
+    background-color: hsl(195, 74%, 62%);
+}
+div.container-card.Study{
+    background-color: hsl(348, 100%, 68%);
+}
+div.container-card.Exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+div.container-card.Social{
+    background-color: hsl(264, 64%, 52%);
+}
+div.container-card{
+    background-color: hsl(43, 84%, 65%);
+}
+
+div.container-card img#task-image{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+div.container-card section.card{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 70%;
+    width: 100%;
+    padding: 10px 2rem 10px;
+    
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+    z-index: 103;
+}
+
+div.container-card section.card:hover{
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+
+div.container-card section.card div.hours-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.container-card section.card div.hours-task h5{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+div.container-card section.card div.hours-task h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+div.container-card section.card div.last-week{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+div.container-card section.card div.last-week img{
+    width: 30px;
+}
+
+div.container-card section.card div.last-week p{
+    align-self: flex-end;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+@media (min-width: 1024px){
+    
+    div.container-card section.card{
+        flex-direction: column;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    div.container-card section.card div.hours-task{
+        flex-grow: 2;
+        justify-content: space-between;
+    }
+
+    div.container-card section.card div.hours-task h5{
+        margin-top:10px
+    }
+
+    div.container-card section.card div.last-week{
+        display: block;
+        flex-grow: 1;
+    }
+
+    div.container-card section.card div.last-week img{
+        position: absolute;
+        top: 28px;
+        right: 20px;
+    }
+
+    div.container-card section.card div.last-week p{
+        padding: 0;
+    }
+}
+
