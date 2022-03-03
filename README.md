@@ -2,9 +2,9 @@
 
 <p align="center" >⏱️ for all the people who want to own their time</p>
 
-<p align="center" display="inline">
+<p align="left" display="inline">
   <img src="https://github.com/FelipeSilM/Time-tracking-dashboard/blob/master/frontend/src/images/readme%20image-mobile.PNG" width="200px" title="hover text">
-  <img src="https://github.com/FelipeSilM/Time-tracking-dashboard/blob/master/frontend/src/images/readme%20image.PNG" width="400px" title="hover text">
+  <img src="https://github.com/FelipeSilM/Time-tracking-dashboard/blob/master/frontend/src/images/readme%20image.PNG" width="600px" title="hover text">
 </p>
 
   ## Table of contents
