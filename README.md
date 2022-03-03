@@ -4,7 +4,7 @@
 
 <p align="center" display="inline">
   <img src="https://github.com/FelipeSilM/Time-tracking-dashboard/blob/master/frontend/src/images/readme%20image-mobile.PNG" width="200px" title="hover text">
-  <img src="https://github.com/FelipeSilM/Time-tracking-dashboard/blob/master/frontend/src/images/readme%20image.PNG" width="700px" title="hover text">
+  <img src="https://github.com/FelipeSilM/Time-tracking-dashboard/blob/master/frontend/src/images/readme%20image.PNG" width="400px" title="hover text">
 </p>
 
   ## Table of contents
